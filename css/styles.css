@@ -1,5 +1,18 @@
-* {
-	margin: 0;
-	font-family: 'Raleway', sans-serif;
-}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
 
+* {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-family: Relaway, Arial, sans-serif; }
+
+img {
+  width: inherit;
+  /* IEB */
+  max-width: 100%;
+  height: auto; }
+
+/*# sourceMappingURL=styles.css.map */

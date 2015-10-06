@@ -1,0 +1,25 @@
+// 
+// Estilos para los elementos base
+//
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	font-family: $sans;
+}
+
+
+
+img {
+	width: inherit; /* IEB */
+	max-width: 100%;
+	height: auto;
+}

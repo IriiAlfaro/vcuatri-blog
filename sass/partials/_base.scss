@@ -9,6 +9,7 @@ html {
 
 * {
 	box-sizing: inherit;
+	margin: 0;
 }
 
 body {
@@ -16,6 +17,20 @@ body {
 	font-family: $sans;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+//li - p - a 
 
 
 img {

@@ -1,0 +1,39 @@
+.logo-blog {
+	width: 35%;
+    margin: 0 auto;
+    display: block;
+    padding: 15% 0;
+}
+
+.social-nav {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	li {
+		display: inline-block;
+	}
+	a {
+		color: #fff;
+		font-size: 23px;
+		.fa-facebook-square {
+            margin-right: 5px; 
+		}
+	}
+}
+
+.main-nav {
+	background-color: #39CA74;
+	position: absolute;
+	width: 100%;
+	ul {
+		text-align: center;
+	}
+	li {
+		display: inline-block;
+		padding: 8px; 
+	}
+	a {
+		color: #fff;
+		font-size: 1.5rem;
+	}
+}

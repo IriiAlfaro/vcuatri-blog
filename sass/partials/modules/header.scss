@@ -23,6 +23,17 @@
 	}
 }
 
+.items-menu {
+	display: none;
+}
+
+.btn-menu {
+	display: block;
+	color: #FFF;
+	text-align: center;
+	padding: 1rem;
+}
+
 .main-nav {
 	background-color: #39CA74;
 	width: 100%;
@@ -30,12 +41,15 @@
 		text-align: center;
 	}
 	li {
-		display: inline-block;
-		padding: 8px; 
+		padding: 8px;
+		a {
+			color: #FFF;
+			font-size: 1.6rem;
+		}
 	}
-	a {
+	span {
 		color: #fff;
-		font-size: 1.5rem;
+		font-size: 1.9rem;
 	}
 }
 
@@ -46,9 +60,16 @@
     }
     .main-nav 
     li {
-    	padding: 10px 30px; 
+    	padding: 10px 30px;
+    	display: inline-block; 
     	a {
     		font-size: 2.5rem;
     	}
+    }
+    .items-menu {
+    	display: block;
+    }
+    .btn-menu {
+    	display: none;
     }
 }

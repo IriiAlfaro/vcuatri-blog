@@ -17,17 +17,28 @@
     .social-nav a .fa-facebook-square {
       margin-right: 5px; }
 
+.items-menu {
+  display: none; }
+
+.btn-menu {
+  display: block;
+  color: #FFF;
+  text-align: center;
+  padding: 1rem; }
+
 .main-nav {
   background-color: #39CA74;
   width: 100%; }
   .main-nav ul {
     text-align: center; }
   .main-nav li {
-    display: inline-block;
     padding: 8px; }
-  .main-nav a {
+    .main-nav li a {
+      color: #FFF;
+      font-size: 1.6rem; }
+  .main-nav span {
     color: #fff;
-    font-size: 1.5rem; }
+    font-size: 1.9rem; }
 
 @media (min-width: 750px) {
   .social-nav a {
@@ -35,9 +46,16 @@
 
   .main-nav
   li {
-    padding: 10px 30px; }
+    padding: 10px 30px;
+    display: inline-block; }
     .main-nav
     li a {
-      font-size: 2.5rem; } }
+      font-size: 2.5rem; }
+
+  .items-menu {
+    display: block; }
+
+  .btn-menu {
+    display: none; } }
 
 /*# sourceMappingURL=header.css.map */

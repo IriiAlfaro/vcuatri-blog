@@ -1,8 +1,10 @@
+.blog-name {
+	text-align: center;
+	padding: 6rem 0;
+}
+
 .logo-blog {
 	width: 35%;
-    margin: 0 auto;
-    display: block;
-    padding: 15% 0;
 }
 
 .social-nav {
@@ -23,7 +25,6 @@
 
 .main-nav {
 	background-color: #39CA74;
-	position: absolute;
 	width: 100%;
 	ul {
 		text-align: center;
@@ -36,4 +37,18 @@
 		color: #fff;
 		font-size: 1.5rem;
 	}
+}
+
+
+@media (min-width: 750px) {
+	.social-nav a {
+		font-size: 30px;
+    }
+    .main-nav 
+    li {
+    	padding: 10px 30px; 
+    	a {
+    		font-size: 2.5rem;
+    	}
+    }
 }
